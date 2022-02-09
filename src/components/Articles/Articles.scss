@@ -1,0 +1,41 @@
+.al-container {
+    padding-top: 2em;
+    margin: auto;
+    
+    p {
+        opacity: 0.7;
+    }
+
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    * {
+        color: #242123;
+        text-decoration: none; 
+    }
+
+    > * {
+       margin: 0;
+    }
+}
+
+.articles {
+    padding: 0;
+
+}
+
+.card {
+    * {
+        margin: 0;
+    }
+    
+    h2 {
+        margin-top: 1.3em;
+    }
+
+    p {
+        margin-top: 0.5em;
+    }
+}

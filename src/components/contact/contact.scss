@@ -1,0 +1,62 @@
+@import "../../globals.scss";
+
+#contactpage-container {
+    max-width: 800px;
+    height: 100%;
+    margin: auto;
+
+    justify-content: center;
+
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+        margin-left: 7px;
+    }
+
+    p {
+        opacity: 0.8;
+        margin: 0;
+    }
+
+    textarea {
+        width: auto;
+        padding-bottom: 0;
+    }
+
+
+}
+
+#contact-container {
+    display: flex;
+    flex-direction: row;
+
+    #email-container {
+
+        * {
+            margin: 7px;
+            display: block;
+        }
+        margin-bottom: 5em;
+    }
+
+    @include for-tablet-down {
+        flex-direction: column-reverse;
+
+    }
+
+    .info-container {
+        padding: 0 100px;
+
+        @include for-tablet-down {
+            padding-left: 10px;
+            padding-bottom: 25px;
+    
+        }
+
+        h2 {
+            margin: 15px 0;
+        }
+    }
+
+}

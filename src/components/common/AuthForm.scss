@@ -1,0 +1,28 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+
+    max-width: 500px;
+    margin: auto;
+
+    input {
+        margin-bottom: 12px;
+    }
+
+    p {
+        margin: 5px;
+    }
+
+    form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        flex-direction: column;
+    }
+}

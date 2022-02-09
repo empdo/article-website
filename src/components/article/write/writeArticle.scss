@@ -1,0 +1,77 @@
+@import "../../../globals.scss";
+
+.sunEditor-container{
+    max-width: 1100px;
+    padding: 0 26px;
+    margin: 0 auto;
+    margin-top: 2em;
+
+    display: flex;
+    flex-direction: row;
+
+    @include for-tablet-down {
+        flex-direction: column-reverse;
+
+    }
+
+    .sun-editor {
+        flex: 3;
+    }
+    
+    
+    .info-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        flex: 1;
+    
+        gap: 2em;
+    
+        margin-left: 30px;
+
+        @include for-tablet-down {
+            margin-left: 0;
+            margin-bottom: 30px;
+        }
+
+        button {
+            height: 40px;
+            margin-bottom: .4em;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        #remove-article-button {
+            background-color: #E6C7B8;
+            border-radius: 4px;
+            padding: 2px;
+
+            display: flex;
+
+            justify-content: center;
+            align-items: center;
+
+            cursor: pointer;
+
+            img {
+                height: 25px;
+            }
+        }
+
+        #remove-article-button:hover {
+            background-color: #e0bcaa; 
+        }
+    
+        > div {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+    }
+}
+
+.se-wrapper-inner {
+    padding: 10px;
+}

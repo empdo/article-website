@@ -1,0 +1,19 @@
+.article {
+    max-width: 800px;
+    padding: 0 26px;
+    margin: auto;
+
+    #description {
+        opacity: 0.7;
+    }
+}
+
+.purchase-card {
+    * {
+        display: inline;
+    }
+
+    button {
+        margin-left: 10px;
+    }
+}
